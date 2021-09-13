@@ -32,6 +32,29 @@ public class ExForSum {
 //                System.out.println(strU.charAt(0));
 ////            }
 //        }
-        
+
+        var h = 5;
+        for (int i = 1; i <= h; i++) {
+            for (int j = i; j <= h ; j++) {
+                System.out.print(" * ");
+            }
+            System.out.println();
+        }
+
+
+
+        h = 4;
+        for (int i = 1; i <= h; i++) {
+            for (int j = 1; j <= h ; j++) {
+                if (j >= i) {
+                    System.out.print(" * ");
+
+                } else {
+                    System.out.print("   ");
+
+                }
+            }
+            System.out.println();
+        }
     }
 }
